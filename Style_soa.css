@@ -226,6 +226,10 @@ body {
        color: #ffffff;
        text-align: center;
 }
+h5{
+    text-align: center;
+}
+
 .login-container {
     padding-top: 50px ;
     max-width: 500px;
