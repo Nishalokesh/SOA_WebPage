@@ -153,7 +153,8 @@ input {
     margin-bottom: 10px;
     padding: 8px;
     box-sizing: border-box;
-    text-fill-color: black;
+    background-color:#f47443;
+    color:white;
     text-align: center;
 }
 
