@@ -135,9 +135,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.loginform{
-       color: white;
-}
 #login-container {
     padding-top: 50px ;
     max-width: 500px;
