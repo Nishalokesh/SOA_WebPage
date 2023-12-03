@@ -223,7 +223,7 @@ body {
 }
 
 .loginform{
-       color: white;
+       color: #ffffff;
 }
 #login-container {
     padding-top: 50px ;
@@ -240,7 +240,7 @@ input {
     margin-bottom: 10px;
     padding: 8px;
     box-sizing: border-box;
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 
