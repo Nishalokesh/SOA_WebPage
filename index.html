@@ -33,20 +33,40 @@
                 <li><img src="https://th.bing.com/th/id/OIP.nYQ38ySbYh9QODsCdhqUlQHaFS?pid=ImgDet&rs=1"><br>CONTACT LENSES</li>
             </ul>
         </div>    
-    <div class="content">
-        <h5>To order please login<br>If you don't have an account 'Sign-in!'</h5>
-    </div>
+    
        </div>
-       <div class="form">
-         <h2>Login Here</h2>
-         <input type="email" name="email" placeholder="Enter Email Here" style="color:aliceblue">
-         <input type="password" name="" placeholder="Enter Password Here" style="color:aliceblue">
-         <button class="btnn"><a href="#">Login</a></button>
 
-         <p class="link">Don't have an account?<br>
-         <a href="./specs_signup.html"><u>Sign up here!</u></a></p>
-       </div>
-    </div>
- 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <div id="login-container">
+            <!-- Embedded XML content for login -->
+            <loginForm>
+                <h5>To order please login<br>If you don't have an account 'Sign-in!'</h5>
+
+            </loginForm>
+    
+            <!-- HTML form for demonstration purposes -->
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+    
+                <button type="button" onclick="login()">Login</button><br>
+                <p class="link">Don't have an account?<br>
+                    <a href="./specs_signup.html"><u>Sign up here!</u></a></p>
+            </form>
+        </div>
+    
+   
+        <script>
+            function login() {
+                // Your login logic goes here
+                alert('Login button clicked. Implement your login logic.');
+            }
+        </script>
+    
 </body>
 </html>
