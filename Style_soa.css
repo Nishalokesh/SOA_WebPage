@@ -225,7 +225,7 @@ body {
 .loginform{
        color: #ffffff;
 }
-#login-container {
+.login-container {
     padding-top: 50px ;
     max-width: 500px;
     margin: 50px auto;
